@@ -1,0 +1,41 @@
+/* Top Bar Styles */
+.top-bar {
+  background-color: #0c1c23; /* dark blue-gray */
+  color: white;
+  font-size: 14px;
+  font-family: 'poppins', Arial, sans-serif;
+}
+
+/* Make text links look nice */
+.top-bar a {
+  color: #00BFA5; /* teal */
+  text-decoration: none;
+}
+
+.top-bar a:hover {
+  text-decoration: underline;
+}
+.top-bar .social-icons a {
+  color: white;
+}
+
+.top-bar .social-icons a:hover {
+  color: #00BFA5;
+}
+/* Add small spacing beside icons */
+.top-bar i {
+  margin-right: 6px;
+}
+
+/* Ensure the bar content is centered and doesn’t touch edges */
+.container {
+  max-width: 1500px; /* controls total width */
+  margin: 0 auto;    /* centers it horizontally */
+  padding: 0 20px;   /* adds left & right space */
+}
+
+.carousel-item img {
+  height: 90vh; /* adjust height (vh = viewport height) */
+  object-fit: cover; /* crop edges instead of stretching */
+  object-position: center; /* keep center part of image visible */
+}
